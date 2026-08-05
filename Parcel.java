@@ -1,6 +1,3 @@
-
-package lab6.shipment;
-
 public class Parcel {
     protected final double weightKg;
     protected final double distanceKm;
