@@ -3,7 +3,6 @@ class ExpressParcel extends StandardParcel {
 
     public ExpressParcel(double weightKg, double distanceKm, boolean insured,
                          String sizeTier, boolean sameDay) {
-       //TO DO: Complete the constructor
        super(weightKg, distanceKm, insured, sizeTier);
        this.sameDay = sameDay;
        
@@ -15,7 +14,6 @@ class ExpressParcel extends StandardParcel {
         double cost = super.shippingCost();
         // Express surcharge: faster delivery multiplier + optional same-day fee
         cost *= 1.35; // express speed premium
-        //TO DO update cost based on sameDay
         if (sameDay == true){
             cost += 7.50;
         }
