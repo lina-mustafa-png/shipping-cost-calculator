@@ -14,7 +14,6 @@ public class InternationalParcel extends Parcel {
 
     @Override
     public double shippingCost() {
-       //TO DO  complete this part
        double baseShipping = super.shippingCost();
        double handling = 8.00;
        double customsDuty = customsRate * baseShipping;
