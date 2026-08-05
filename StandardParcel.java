@@ -15,7 +15,6 @@ class StandardParcel extends Parcel {
         double cost = super.shippingCost();
         double handling= 0;
         if (null != sizeTier)
-        //Write lines of codes that calculates handeling based on sizeTier
         switch (sizeTier) {
             case "S":
                 handling = 0.75;
