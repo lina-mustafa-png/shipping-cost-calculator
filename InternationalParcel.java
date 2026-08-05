@@ -1,7 +1,3 @@
-
-package lab6.shipment;
-
-
 public class InternationalParcel extends Parcel {
        private final String region;      // e.g., "EU", "APAC", "NA"
     private final double customsRate; // 0.0 - 0.25 (percentage of base as duties)
