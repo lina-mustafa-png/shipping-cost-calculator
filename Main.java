@@ -1,7 +1,3 @@
-
-package lab6.shipment;
-
-
 public class Main {
     public static void main(String[] args) {
         Parcel[] parcels = new Parcel[] {
