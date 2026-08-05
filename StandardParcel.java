@@ -1,7 +1,3 @@
-
-package lab6.shipment;
-
-
 class StandardParcel extends Parcel {
     // sizeTier: S/M/L affects handling
     protected final String sizeTier;
