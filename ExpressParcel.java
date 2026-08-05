@@ -1,6 +1,3 @@
-
-package lab6.shipment;
-
 class ExpressParcel extends StandardParcel {
     private final boolean sameDay;
 
